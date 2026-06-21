@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+# Generated Tree-sitter artifacts are intentionally vendored.
+**/src/parser.c linguist-generated=true
+**/src/grammar.json linguist-generated=true
+**/src/node-types.json linguist-generated=true

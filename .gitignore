@@ -1,0 +1,10 @@
+# Go build/test outputs
+*.test
+*.out
+coverage.out
+
+# Local editor/OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
