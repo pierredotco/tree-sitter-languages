@@ -14,6 +14,16 @@ Go bindings for vendored Tree-sitter languages.
 | Vue        | `pierre.co/pierre/tree-sitter-languages/vue`        |
 | YAML       | `pierre.co/pierre/tree-sitter-languages/yaml`       |
 
+## Query assets
+
+The JavaScript, TypeScript, and TSX highlight queries are vendored from
+`zed-industries/zed` at commit `8ba35e5eacf30a847140e82eced017f93f3f6df0`.
+They live next to their language names under:
+
+- `javascript/queries/highlights.scm`
+- `typescript/queries/highlights.scm`
+- `tsx/queries/highlights.scm`
+
 Each package exposes:
 
 ```go
