@@ -24,6 +24,19 @@ They live next to their language names under:
 - `typescript/queries/highlights.scm`
 - `tsx/queries/highlights.scm`
 
+The remaining highlight queries are vendored from each grammar's upstream
+repository, under `<language>/queries/highlights.scm`:
+
+| Query      | Source                                                                 |
+| ---------- | ---------------------------------------------------------------------- |
+| Dockerfile | `camdencheek/tree-sitter-dockerfile@v0.2.0`                             |
+| GraphQL    | `bkegley/tree-sitter-graphql@v0.0.0-20210510140929-5e66e961eee4`        |
+| Make       | `alemuller/tree-sitter-make@v0.0.0-20211216171417-a4b9187417d6`         |
+| Nix        | `nix-community/tree-sitter-nix@v0.3.0`                                  |
+| Svelte     | `Himujjal/tree-sitter-svelte@v0.11.0`                                   |
+| Vue        | `tree-sitter-grammars/tree-sitter-vue@v0.0.0-20260124095733-ce8011a414fd` |
+| YAML       | `zed-industries/tree-sitter-yaml@v0.0.0-20240911205050-baff0b51c64e`    |
+
 Each package exposes:
 
 ```go
