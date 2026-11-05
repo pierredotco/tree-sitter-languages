@@ -4,15 +4,15 @@ Go bindings for vendored Tree-sitter languages.
 
 ## Packages
 
-| Grammar    | Import path                                          |
-| ---------- | ---------------------------------------------------- |
-| Dockerfile | `pierre.co/pierre/tree-sitter-languages/dockerfile` |
-| GraphQL    | `pierre.co/pierre/tree-sitter-languages/graphql`    |
-| Make       | `pierre.co/pierre/tree-sitter-languages/make`       |
-| Nix        | `pierre.co/pierre/tree-sitter-languages/nix`        |
-| Svelte     | `pierre.co/pierre/tree-sitter-languages/svelte`     |
-| Vue        | `pierre.co/pierre/tree-sitter-languages/vue`        |
-| YAML       | `pierre.co/pierre/tree-sitter-languages/yaml`       |
+| Grammar    | Import path                                                |
+| ---------- | ---------------------------------------------------------- |
+| Dockerfile | `github.com/pierredotco/tree-sitter-languages/dockerfile` |
+| GraphQL    | `github.com/pierredotco/tree-sitter-languages/graphql`    |
+| Make       | `github.com/pierredotco/tree-sitter-languages/make`       |
+| Nix        | `github.com/pierredotco/tree-sitter-languages/nix`        |
+| Svelte     | `github.com/pierredotco/tree-sitter-languages/svelte`     |
+| Vue        | `github.com/pierredotco/tree-sitter-languages/vue`        |
+| YAML       | `github.com/pierredotco/tree-sitter-languages/yaml`       |
 
 ## Query assets
 
